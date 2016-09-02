@@ -1,0 +1,9 @@
+version: "2"
+services:
+    plugintest:
+        build: .
+        volumes:
+            - .:/src
+        ports:
+            - 8080:80
+        command: coffee /src/app.coffee

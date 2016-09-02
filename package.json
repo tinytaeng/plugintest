@@ -1,0 +1,16 @@
+{
+  "name": "plugintest.json",
+  "version": "1.0.0",
+  "description": "plugin test foe docker authz",
+  "main": "app.coffee",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "1.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tinytaeng",
+  "license": "ISC"
+}
